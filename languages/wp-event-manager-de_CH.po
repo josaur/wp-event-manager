@@ -20,6 +20,22 @@ msgstr "Demo"
 msgid "Visit the"
 msgstr "Besuche die"
 
+#: admin/wp-event-manager-settings.php:310
+msgid "Registration position"
+msgstr "Position des Registrierungsformulars"
+
+#: admin/wp-event-manager-settings.php:320
+msgid "Select if the form for registration should be on the top or on the bottom."
+msgstr "Bitte wählen Sie die Position des Registrierungsformulares aus."
+
+#: admin/wp-event-manager-settings.php:326
+msgid: "Top"
+msgstr: "Seitananfang"
+#: admin/wp-event-manager-settings.php:328
+msgid: "Bottom"
+msgstr: "Seitenende"
+
+
 #: admin/wp-event-manager-settings.php:842
 msgid "Plugin Demo."
 msgstr "Plugin Demo"
