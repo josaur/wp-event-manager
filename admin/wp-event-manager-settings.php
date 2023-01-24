@@ -317,7 +317,7 @@ class WP_Event_Manager_Settings
 
 							'cb_label'   => __('Registration position', 'wp-event-manager'),
 
-							'desc'       => __('Select if the form for registration should be on the top or on the bottom.'),
+							'desc'       => __('Select if the registrationform should be on the top or on the bottom.'),
 
 							'type'       => 'select',
 
