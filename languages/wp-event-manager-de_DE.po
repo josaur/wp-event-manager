@@ -1984,7 +1984,7 @@ msgstr "Veranstaltungstyp"
 
 #: core/wp-event-manager-post-types.php:201
 msgid "Event types"
-msgstr "Event Typen"
+msgstr "Veranstaltungstypen"
 
 #: core/wp-event-manager-post-types.php:286
 msgid "Event"
