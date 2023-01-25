@@ -13,7 +13,9 @@ global $event_manager;
 	<?php endif; ?>
 	<?php if (event_manager_user_can_post_event() || event_manager_user_can_edit_event($event_id)) : ?>
 		<!-- Event Information Fields -->
-		<h2 class="wpem-form-title wpem-heading-text"><?php _e('Event Details', 'wp-event-manager'); ?></h2>
+		<?php if (get_option('event_submission_title') != "") : ?>
+			<h2 class="wpem-form-title wpem-heading-text"><?php _e(get_option('event_submission_title'), 'wp-event-manager'); ?></h2>
+		<?php endif; ?>
 		<?php
 		if (isset($resume_edit) && $resume_edit) {
 			printf('<p class="wpem-alert wpem-alert-info"><strong>' . __("You are editing an existing event. %s", "wp-event-manager") . '</strong></p>', '<a href="?new=1&key= %s ">' . __('Create A New Event', 'wp-event-manager') . '</a>', esc_attr($resume_edit));
