@@ -745,7 +745,6 @@ msgstr ""
 "API-Entwicklerwebsite</a>. "
 
 #: admin/wp-event-manager-settings.php:106
-#, fuzzy
 msgid "Event Listings"
 msgstr "Veranstaltungslisten"
 
@@ -1219,7 +1218,7 @@ msgstr "Datum & Uhrzeit-Format"
 
 #: admin/wp-event-manager-settings.php:618
 msgid "Datepicker Date Format"
-msgstr "Datumswahl  (\\“Datepicker\\“)"
+msgstr "Datumswahl"
 
 #: admin/wp-event-manager-settings.php:620
 msgid "Select the date format to use in datepickers."
@@ -1229,7 +1228,7 @@ msgstr ""
 
 #: admin/wp-event-manager-settings.php:630
 msgid "Timepicker Format"
-msgstr "Timepicker-Format"
+msgstr "Zeitauswahl-Format"
 
 #: admin/wp-event-manager-settings.php:632
 msgid "Select the time format to use in timepickers."
@@ -1246,7 +1245,7 @@ msgstr "24 Stunden"
 
 #: admin/wp-event-manager-settings.php:646
 msgid "Timepicker Step"
-msgstr "Timepicker-Schrittweite"
+msgstr "Datumsauswahl-Schrittweite"
 
 #: admin/wp-event-manager-settings.php:648
 msgid ""
@@ -1261,12 +1260,8 @@ msgid "Date Format"
 msgstr "Datumsformat"
 
 #: admin/wp-event-manager-settings.php:659
-msgid ""
-"This date format will be used at the frontend date display. <a href=\"%s\" "
-"target=\"__blank\">For more information click here</a>."
-msgstr ""
-"Dieses Datumsformat wird in der Frontend-Datumsanzeige verwendet. <a href="
-"\"%s\" target=\"__blank\">Für weitere Informationen klicken Sie hier</a>."
+msgid "This date format will be used at the frontend date display. <a href=\"https://wordpress.org/support/article/formatting-date-and-time/\" target=\"__blank\">For more information click here</a>."
+msgstr "Dieses Datumsformat wird in der Frontend-Datumsanzeige verwendet. <a href=\"https://wordpress.org/support/article/formatting-date-and-time/\" target=\"__blank\">Für weitere Informationen klicke hier</a>."
 
 #: admin/wp-event-manager-settings.php:668
 msgid "Date And Time Separator"
