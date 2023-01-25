@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) exit;
 global $event_manager;
 ?>
 <form action="<?php echo esc_url($action); ?>" method="post" id="submit-event-form" class="wpem-form-wrapper wpem-main event-manager-form" enctype="multipart/form-data">
-	<?php if (apply_filters('submit_event_form_show_signin', true) AND get_option('event_manager_registration_position') == 'top') : ?>
+	<?php if (apply_filters('submit_event_form_show_signin', true)) : ?>
 		<?php get_event_manager_template('account-signin.php'); ?>
 	<?php endif; ?>
 	<?php if (event_manager_user_can_post_event() || event_manager_user_can_edit_event($event_id)) : ?>
@@ -174,7 +174,4 @@ global $event_manager;
 			<div class="wpem-modal-overlay"></div>
 		</a>
 	</div>
-	<?php if (apply_filters('submit_event_form_show_signin', true) AND get_option('event_manager_registration_position') == 'bottom') : ?>
-		<?php get_event_manager_template('account-signin.php'); ?>
-	<?php endif; ?>
 <?php endif; ?>

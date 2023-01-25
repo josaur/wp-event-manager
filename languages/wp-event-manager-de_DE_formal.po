@@ -39,22 +39,6 @@ msgstr "Outlook"
 msgid "Yahoo"
 msgstr "Yahoo"
 
-#: admin/wp-event-manager-settings.php:310
-msgid "Registration position"
-msgstr "Position des Registrierungsformulars"
-
-#: admin/wp-event-manager-settings.php:320
-msgid "Select if the registrationform should be on the top or on the bottom."
-msgstr "Bitte wählen Sie die Position des Registrierungsformulares aus."
-
-#: admin/wp-event-manager-settings.php:326
-msgid "Top"
-msgstr "Seitananfang"
-
-#: admin/wp-event-manager-settings.php:328
-msgid "Bottom"
-msgstr "Seitenende"
-
 #: admin/wp-event-manager-settings.php:836
 msgid "Help to improve this plugin!</b> <br>Enjoyed this plugin? You can help by 5 stars rating this plugin on <a href=\"https://wordpress.org/plugins/wp-event-manager/\" target=\"_blank\" >wordpress.org."
 msgstr "Hefen Sie mit, dieses Plugin zu verbessern!</b> <br>Gefällt Ihnen dieses Plugin? Sie können uns helfen, indem Sie eine 5-Sterne-Bewertung auf <a href=\"https://wordpress.org/plugins/wp-event-manager/\" target=\"_blank\" >wordpress.org abgeben."

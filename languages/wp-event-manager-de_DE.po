@@ -535,6 +535,7 @@ msgstr "Meta Key"
 #: admin/wp-event-manager-field-editor.php:197
 #: admin/wp-event-manager-form-field-editor-field.php:157
 #: admin/wp-event-manager-form-field-editor-group-field-row.php:12
+#, fuzzy
 msgid "Only For Admin"
 msgstr "Nur für Administratoren"
 
@@ -696,6 +697,7 @@ msgid "Enable organizer"
 msgstr "Organisator aktivieren"
 
 #: admin/wp-event-manager-settings.php:70
+#, fuzzy
 msgid ""
 "Disable this to remove the functionality of Organizers on Your Event Website."
 msgstr ""
@@ -704,9 +706,10 @@ msgstr ""
 
 #: admin/wp-event-manager-settings.php:79
 msgid "Enable venue"
-msgstr "Veranstaltungsorte aktivieren"
+msgstr "Enable venue"
 
 #: admin/wp-event-manager-settings.php:80
+#, fuzzy
 msgid ""
 "Disable this to remove the functionality of Venue on your Event Website."
 msgstr ""
@@ -718,6 +721,7 @@ msgid "Delete Data On Uninstall"
 msgstr "Löschen Sie die Daten bei der Deinstallation"
 
 #: admin/wp-event-manager-settings.php:90
+#, fuzzy
 msgid ""
 "Delete WP Event Manager data when the plugin is deleted. Once removed, this "
 "data cannot be restored."
@@ -730,6 +734,7 @@ msgid "Google API Key"
 msgstr "Google API-Key"
 
 #: admin/wp-event-manager-settings.php:99
+#, fuzzy, php-format
 msgid ""
 "If you are going to deal with google map or location then you need Google "
 "API key to retrieve location information for event listings. Also this "
@@ -759,16 +764,18 @@ msgstr "Wie viele Einträge sollen pro Seite standardmäßig angezeigt werden?"
 
 #: admin/wp-event-manager-settings.php:133
 msgid "Cancelled Events"
-msgstr "Abgesagte Veranstaltungen"
+msgstr "Abgesagter Seminar"
 
 #: admin/wp-event-manager-settings.php:135
+#, fuzzy
 msgid "Hide cancelled events."
 msgstr "Abgesagte Veranstaltungen ausblenden."
 
 #: admin/wp-event-manager-settings.php:137
+#, fuzzy
 msgid "If enabled, cancelled events will be hidden from archives."
 msgstr ""
-"Wenn diese Option aktiviert ist, werden abgebrochene Ereignisse aus den Archiven "
+"Wenn diese Option aktiviert ist, werden abgebrochene Ereignisse aus archiven "
 "ausgeblendet."
 
 #: admin/wp-event-manager-settings.php:147
@@ -776,10 +783,12 @@ msgid "Hide Expired Listings"
 msgstr "Abgelaufene Stellenanzeigen ausblenden"
 
 #: admin/wp-event-manager-settings.php:149
+#, fuzzy
 msgid "Hide expired listings in event archive/search."
 msgstr "Ausblenden abgelaufener Einträge im Ereignisarchiv/in der Suche."
 
 #: admin/wp-event-manager-settings.php:151
+#, fuzzy
 msgid "If enabled, expired event listing is not searchable."
 msgstr ""
 "Wenn diese Option aktiviert ist, kann die Liste abgelaufener Ereignisse "
@@ -790,12 +799,14 @@ msgid "Hide Expired Listings Content"
 msgstr "Verberge abgelaufene Angebote"
 
 #: admin/wp-event-manager-settings.php:166
+#, fuzzy
 msgid "Hide expired listing content in single event listing (singular)."
 msgstr ""
 "Ausblenden des Inhalts abgelaufener Einträge in einem einzelnen "
 "Ereigniseintrag (Singular)."
 
 #: admin/wp-event-manager-settings.php:168
+#, fuzzy
 msgid ""
 "If enabled, the content within expired listings will be hidden. Otherwise, "
 "expired listings will be displayed as normal (without the event registration "
@@ -810,11 +821,13 @@ msgid "Multi-select Categories"
 msgstr "Mehrfachauswahl-Kategorien"
 
 #: admin/wp-event-manager-settings.php:183
+#, fuzzy
 msgid "Enable category multiselect by default."
 msgstr "Aktivieren Sie standardmäßig die Kategorie-Mehrfachauswahl."
 
 #: admin/wp-event-manager-settings.php:185
 #: admin/wp-event-manager-settings.php:217
+#, fuzzy
 msgid ""
 "If enabled, the category select box will default to a multi select on the "
 "[events] shortcode."
@@ -823,15 +836,18 @@ msgstr ""
 "eine Mehrfachauswahl für den Shortcode [ereignisse] verwendet."
 
 #: admin/wp-event-manager-settings.php:198
+#, fuzzy
 msgid "Multi-select Event Types"
 msgstr "Mehrfach ausgewählte Ereignistypen"
 
 #: admin/wp-event-manager-settings.php:200
+#, fuzzy
 msgid "Enable event type multiselect by default."
 msgstr "Aktivieren Sie standardmäßig die Ereignistyp-Mehrfachauswahl."
 
 #: admin/wp-event-manager-settings.php:202
 #: admin/wp-event-manager-settings.php:237
+#, fuzzy
 msgid ""
 "If enabled, the event type select box will default to a multi select on the "
 "[events] shortcode."
@@ -845,28 +861,33 @@ msgid "Category Filter"
 msgstr "Kategorie-Filter"
 
 #: admin/wp-event-manager-settings.php:223
+#, fuzzy
 msgid "Events will be shown if within ANY selected category."
 msgstr ""
 "Ereignisse werden angezeigt, wenn sie sich innerhalb EINER ausgewählten "
 "Kategorie befinden."
 
 #: admin/wp-event-manager-settings.php:225
+#, fuzzy
 msgid "Events will be shown if within ALL selected categories."
 msgstr ""
 "Ereignisse werden angezeigt, wenn sie sich in ALLEN ausgewählten Kategorien "
 "befinden."
 
 #: admin/wp-event-manager-settings.php:235
+#, fuzzy
 msgid "Event Type Filter"
 msgstr "Ereignistypfilter"
 
 #: admin/wp-event-manager-settings.php:243
+#, fuzzy
 msgid "Events will be shown if within ANY selected event type."
 msgstr ""
 "Ereignisse werden angezeigt, wenn sie innerhalb EINES ausgewählten "
 "Ereignistyps liegen."
 
 #: admin/wp-event-manager-settings.php:245
+#, fuzzy
 msgid "Events will be shown if within ALL selected event types."
 msgstr ""
 "Ereignisse werden angezeigt, wenn sie innerhalb ALLER ausgewählten "
@@ -881,6 +902,7 @@ msgid "Account Required"
 msgstr "Konto erforderlich"
 
 #: admin/wp-event-manager-settings.php:265
+#, fuzzy
 msgid "Submitting listings requires an account."
 msgstr "Für das Einreichen von Angeboten ist ein Konto erforderlich."
 
@@ -896,6 +918,7 @@ msgid "Account Creation"
 msgstr "Kontoerstellung"
 
 #: admin/wp-event-manager-settings.php:282
+#, fuzzy
 msgid "Allow account creation."
 msgstr "Kontoerstellung zulassen."
 
@@ -912,6 +935,7 @@ msgid "Account Username"
 msgstr "Benutzername des Kontos"
 
 #: admin/wp-event-manager-settings.php:299
+#, fuzzy
 msgid "Automatically Generate Username from Email Address."
 msgstr "Generieren Sie automatisch den Benutzernamen aus der E-Mail-Adresse."
 
@@ -928,6 +952,7 @@ msgid "Account Password"
 msgstr "Account-Passwort"
 
 #: admin/wp-event-manager-settings.php:311
+#, fuzzy
 msgid ""
 "Use WordPress' default behavior and email new users link to set a password."
 msgstr ""
@@ -949,6 +974,7 @@ msgid "Account Role"
 msgstr "Rolle des Kontoinhabers"
 
 #: admin/wp-event-manager-settings.php:325
+#, fuzzy
 msgid ""
 "If you enable user registration on your submission form, choose a role for "
 "the new user."
@@ -961,6 +987,7 @@ msgid "Moderate New Listings"
 msgstr "Neue Beiträge moderieren"
 
 #: admin/wp-event-manager-settings.php:340
+#, fuzzy
 msgid "New listing submissions require admin approval."
 msgstr ""
 "Neue Angebotseinreichungen erfordern die Genehmigung des Administrators."
@@ -976,6 +1003,7 @@ msgid "Allow Pending Edits"
 msgstr "Erlaube das Bearbeiten von nicht aktivierten Einträgen"
 
 #: admin/wp-event-manager-settings.php:357
+#, fuzzy
 msgid "Submissions awaiting approval can be edited."
 msgstr ""
 "Einreichungen, die auf eine Genehmigung warten, können bearbeitet werden."
@@ -988,14 +1016,17 @@ msgstr ""
 "Admin warten, vom User bearbeitet werden."
 
 #: admin/wp-event-manager-settings.php:370
+#, fuzzy
 msgid "Allow Multiple Banners"
 msgstr "Mehrere Banner zulassen"
 
 #: admin/wp-event-manager-settings.php:372
+#, fuzzy
 msgid "User can submit multiple banner."
 msgstr "Der Benutzer kann mehrere Banner einreichen."
 
 #: admin/wp-event-manager-settings.php:374
+#, fuzzy
 msgid ""
 "If enabled, Multiple banner can add at frontend by user and backend side by "
 "admin."
@@ -1004,28 +1035,34 @@ msgstr ""
 "Benutzer und Backend-Seite nach Administrator hinzugefügt werden."
 
 #: admin/wp-event-manager-settings.php:386
+#, fuzzy
 msgid "Delete listings after finished"
 msgstr "Angebote löschen, nachdem sie fertig sind"
 
 #: admin/wp-event-manager-settings.php:388
+#, fuzzy
 msgid "Delete listings after finished."
 msgstr "Löschen Sie Angebote, nachdem Sie fertig sind."
 
 #: admin/wp-event-manager-settings.php:390
+#, fuzzy
 msgid "If enabled, expired listings will automatically deleted after finished."
 msgstr ""
 "Wenn diese Option aktiviert ist, werden abgelaufene Angebote nach Abschluss "
 "automatisch gelöscht."
 
 #: admin/wp-event-manager-settings.php:402
+#, fuzzy
 msgid "Delete Expired listings"
 msgstr "Abgelaufene Angebote löschen"
 
 #: admin/wp-event-manager-settings.php:404
+#, fuzzy
 msgid "Expired listings are deleted after 30 days."
 msgstr "Abgelaufene Angebote werden nach 30 Tagen gelöscht."
 
 #: admin/wp-event-manager-settings.php:406
+#, fuzzy
 msgid "If enabled, expired listings will automatically deleted after 30 days."
 msgstr ""
 "Wenn diese Option aktiviert ist, werden abgelaufene Angebote nach 30 Tagen "
@@ -1036,6 +1073,7 @@ msgid "Listing Expire"
 msgstr "Eintrag läuft ab"
 
 #: admin/wp-event-manager-settings.php:421
+#, fuzzy
 msgid ""
 "You can set event submission expiry time either event end date or specific "
 "days."
@@ -1044,10 +1082,12 @@ msgstr ""
 "des Ereignisses oder für bestimmte Tage festlegen."
 
 #: admin/wp-event-manager-settings.php:427
+#, fuzzy
 msgid "Listing expire on Event End Date"
 msgstr "Angebot läuft am Enddatum des Ereignisses ab"
 
 #: admin/wp-event-manager-settings.php:429
+#, fuzzy
 msgid "Listing expire on Specified Below Days"
 msgstr "Angebote laufen an den unten angegebenen Tagen ab"
 
@@ -1068,10 +1108,12 @@ msgid "Categories"
 msgstr "Kategorien"
 
 #: admin/wp-event-manager-settings.php:454
+#, fuzzy
 msgid "Enable Categories for listing and submission form."
 msgstr "Aktivieren Sie Kategorien für das Angebots- und Einreichungsformular."
 
 #: admin/wp-event-manager-settings.php:456
+#, fuzzy
 msgid ""
 "Choose whether to enable categories on the event listing and submission "
 "page. If enabled, it needs to be prior created at the backend."
@@ -1086,11 +1128,13 @@ msgid "Event Types"
 msgstr "Veranstaltungsarten"
 
 #: admin/wp-event-manager-settings.php:471
+#, fuzzy
 msgid "Enable Event types for listing and submission form."
 msgstr ""
 "Aktivieren Sie Ereignistypen für das Auflistungs- und Einreichungsformular."
 
 #: admin/wp-event-manager-settings.php:473
+#, fuzzy
 msgid ""
 "Choose whether to enable event types on the event listing and submission "
 "page. If enabled, it needs to be prior created at the backend."
@@ -1100,15 +1144,18 @@ msgstr ""
 "zuvor im Backend erstellt werden."
 
 #: admin/wp-event-manager-settings.php:486
+#, fuzzy
 msgid "Ticket prices"
 msgstr "Ticketpreise"
 
 #: admin/wp-event-manager-settings.php:488
+#, fuzzy
 msgid "Enable Ticket prices for listing and submission form."
 msgstr ""
 "Aktivieren Sie die Ticketpreise für das Angebot und das Einreichungsformular."
 
 #: admin/wp-event-manager-settings.php:490
+#, fuzzy
 msgid ""
 "Choose whether to enable ticket prices on the event listing and submission "
 "page."
@@ -1121,10 +1168,12 @@ msgid "Pages"
 msgstr "Seiten"
 
 #: admin/wp-event-manager-settings.php:511
+#, fuzzy
 msgid "Submit Event Form Page"
 msgstr "Seite \"Ereignisformular senden\""
 
 #: admin/wp-event-manager-settings.php:513
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [submit_event_form] shortcode. "
 "This lets the plugin know where the form is located."
@@ -1133,10 +1182,12 @@ msgstr ""
 "platziert haben. Dadurch weiß das Plugin, wo sich das Formular befindet."
 
 #: admin/wp-event-manager-settings.php:524
+#, fuzzy
 msgid "Event Dashboard Page"
 msgstr "Seite \"Ereignis-Dashboard\""
 
 #: admin/wp-event-manager-settings.php:526
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [event_dashboard] shortcode. This "
 "lets the plugin know where the dashboard is located."
@@ -1145,10 +1196,12 @@ msgstr ""
 "platziert haben. Dadurch weiß das Plugin, wo sich das Dashboard befindet."
 
 #: admin/wp-event-manager-settings.php:537
+#, fuzzy
 msgid "Event Listings Page"
 msgstr "Seite \"Veranstaltungslisten\""
 
 #: admin/wp-event-manager-settings.php:539
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [events] shortcode. This lets the "
 "plugin know where the event listings page is located."
@@ -1162,14 +1215,17 @@ msgid "Login Page URL"
 msgstr "URL der Login-Seite"
 
 #: admin/wp-event-manager-settings.php:551
+#, fuzzy
 msgid "Enter the Login page URL."
 msgstr "Geben Sie die URL der Anmeldeseite ein."
 
 #: admin/wp-event-manager-settings.php:562
+#, fuzzy
 msgid "Submit Organizer Form Page"
 msgstr "Organizer-Formularseite absenden"
 
 #: admin/wp-event-manager-settings.php:564
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [submit_organizer_form] shortcode. "
 "This lets the plugin know where the form is located."
@@ -1178,10 +1234,12 @@ msgstr ""
 "platziert haben. Dadurch weiß das Plugin, wo sich das Formular befindet."
 
 #: admin/wp-event-manager-settings.php:574
+#, fuzzy
 msgid "Organizer Dashboard Page"
 msgstr "Organizer-Dashboard-Seite"
 
 #: admin/wp-event-manager-settings.php:576
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [organizer_dashboard] shortcode. "
 "This lets the plugin know where the dashboard is located."
@@ -1190,10 +1248,12 @@ msgstr ""
 "platziert haben. Dadurch weiß das Plugin, wo sich das Dashboard befindet."
 
 #: admin/wp-event-manager-settings.php:587
+#, fuzzy
 msgid "Submit Venue Form Page"
 msgstr "Formularseite \"Veranstaltungsort einreichen\""
 
 #: admin/wp-event-manager-settings.php:589
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [submit_venue_form] shortcode. "
 "This lets the plugin know where the form is located."
@@ -1202,10 +1262,12 @@ msgstr ""
 "platziert haben. Dadurch weiß das Plugin, wo sich das Formular befindet."
 
 #: admin/wp-event-manager-settings.php:599
+#, fuzzy
 msgid "Venue Dashboard Page"
 msgstr "Dashboard-Seite \"Veranstaltungsort\""
 
 #: admin/wp-event-manager-settings.php:601
+#, fuzzy
 msgid ""
 "Select the page where you have placed the [venue_dashboard] shortcode. This "
 "lets the plugin know where the dashboard is located."
@@ -1222,6 +1284,7 @@ msgid "Datepicker Date Format"
 msgstr "Datumswahl  (\\“Datepicker\\“)"
 
 #: admin/wp-event-manager-settings.php:620
+#, fuzzy
 msgid "Select the date format to use in datepickers."
 msgstr ""
 "Wählen Sie das Datumsformat aus, das in der Datumsauswahl verwendet werden "
@@ -1232,6 +1295,7 @@ msgid "Timepicker Format"
 msgstr "Timepicker-Format"
 
 #: admin/wp-event-manager-settings.php:632
+#, fuzzy
 msgid "Select the time format to use in timepickers."
 msgstr ""
 "Wählen Sie das Zeitformat aus, das in der Zeitauswahl verwendet werden soll."
@@ -1245,10 +1309,12 @@ msgid "24 Hours"
 msgstr "24 Stunden"
 
 #: admin/wp-event-manager-settings.php:646
+#, fuzzy
 msgid "Timepicker Step"
-msgstr "Timepicker-Schrittweite"
+msgstr "Timepicker-Schritt"
 
 #: admin/wp-event-manager-settings.php:648
+#, fuzzy
 msgid ""
 "Select the time step to use in timepickers. Time step must have to be in "
 "between 1 to 60."
@@ -1261,6 +1327,7 @@ msgid "Date Format"
 msgstr "Datumsformat"
 
 #: admin/wp-event-manager-settings.php:659
+#, fuzzy, php-format
 msgid ""
 "This date format will be used at the frontend date display. <a href=\"%s\" "
 "target=\"__blank\">For more information click here</a>."
@@ -1269,10 +1336,12 @@ msgstr ""
 "\"%s\" target=\"__blank\">Für weitere Informationen klicken Sie hier</a>."
 
 #: admin/wp-event-manager-settings.php:668
+#, fuzzy
 msgid "Date And Time Separator"
 msgstr "Datums- und Uhrzeittrennzeichen"
 
 #: admin/wp-event-manager-settings.php:670
+#, fuzzy
 msgid "Add date and time separator."
 msgstr "Fügen Sie Datums- und Uhrzeittrennzeichen hinzu."
 
@@ -1281,6 +1350,7 @@ msgid "Event Timezone"
 msgstr "Zeitzone"
 
 #: admin/wp-event-manager-settings.php:681
+#, fuzzy
 msgid ""
 "In case while submitting an event, if the timezone for each event is not "
 "selected, the WP Event Manager will take the default WordPress (website) "
@@ -1295,6 +1365,7 @@ msgid "Use website timezone."
 msgstr "Verwenden Sie die Zeitzone der Website."
 
 #: admin/wp-event-manager-settings.php:686
+#, fuzzy
 msgid "Select a timezone on each event."
 msgstr "Wählen Sie für jedes Ereignis eine Zeitzone aus."
 
@@ -1322,6 +1393,7 @@ msgstr "Wissensdatenbank"
 
 #: admin/wp-event-manager-settings.php:1012
 #: admin/wp-event-manager-setup.php:460
+#, fuzzy
 msgid "Solve your queries by browsing our documentation."
 msgstr "Lösen Sie Ihre Fragen, indem Sie unsere Dokumentation durchsuchen."
 
@@ -1337,11 +1409,13 @@ msgstr "FAQs"
 
 #: admin/wp-event-manager-settings.php:1022
 #: admin/wp-event-manager-setup.php:470
+#, fuzzy
 msgid "Explore through the frequently asked questions."
 msgstr "Sehen Sie sich die häufig gestellten Fragen an."
 
 #: admin/wp-event-manager-settings.php:1023
 #: admin/wp-event-manager-setup.php:471
+#, fuzzy
 msgid "Get Answers"
 msgstr "Erhalten Sie Antworten"
 
@@ -1352,6 +1426,7 @@ msgstr "Videoanleitungen"
 
 #: admin/wp-event-manager-settings.php:1032
 #: admin/wp-event-manager-setup.php:480
+#, fuzzy
 msgid "Learn different skills by examining attractive video tutorials."
 msgstr ""
 "Erlernen Sie verschiedene Fähigkeiten, indem Sie attraktive Video-Tutorials "
@@ -1359,6 +1434,7 @@ msgstr ""
 
 #: admin/wp-event-manager-settings.php:1033
 #: admin/wp-event-manager-setup.php:481
+#, fuzzy
 msgid "Watch all"
 msgstr "Alle ansehen"
 
@@ -1491,7 +1567,7 @@ msgstr ""
 #: admin/wp-event-manager-setup.php:310
 msgctxt "Default page title (wizard)"
 msgid "Event Dashboard"
-msgstr "Veranstaltungs-Dashboard"
+msgstr "Varanstaltungs-Dashboard"
 
 #: admin/wp-event-manager-setup.php:314
 #, fuzzy
@@ -1984,7 +2060,7 @@ msgstr "Veranstaltungstyp"
 
 #: core/wp-event-manager-post-types.php:201
 msgid "Event types"
-msgstr "Veranstaltungstypen"
+msgstr "Event Typen"
 
 #: core/wp-event-manager-post-types.php:286
 msgid "Event"
@@ -2311,7 +2387,7 @@ msgstr "Event Schlagwort"
 #: external/elementor-widgets/elementor-event-dashboard.php:90
 #: templates/event-dashboard.php:139
 msgid "Event Dashboard"
-msgstr "Veranstaltungs-Dashboard"
+msgstr "Varanstaltungs-Dashboard"
 
 #: external/elementor-widgets/elementor-event-dashboard.php:97
 #: external/elementor-widgets/elementor-event-listing.php:110

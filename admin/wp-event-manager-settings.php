@@ -283,28 +283,6 @@ class WP_Event_Manager_Settings
 
 						array(
 
-							'name'       => 'event_manager_registration_position',
-
-							'std'        => '1',
-
-							'label'      => __('Registration position', 'wp-event-manager'),
-
-							'cb_label'   => __('Registration position', 'wp-event-manager'),
-
-							'desc'       => __('Select if the registrationform should be on the top or on the bottom.'),
-
-							'type'       => 'select',
-
-							'options' => array(
-
-								'top' => __('Top', 'wp-event-manager'),
-
-								'bottom' => __('Bottom', 'wp-event-manager'),
-							),
-						),
-
-						array(
-
 							'name'       => 'event_manager_generate_username_from_email',
 
 							'std'        => '1',
