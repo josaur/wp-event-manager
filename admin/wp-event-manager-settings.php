@@ -476,6 +476,14 @@ class WP_Event_Manager_Settings
 						),
 
 						array(
+							'name'       => 'event_submission_title',
+							'std'        => 'Event details',
+							'label'      => __('Title', 'wp-event-manager'),
+							'desc'       => __('type the itle shown in the submission form. Leave empty for no title.'),
+							'attributes' => array(),
+						),
+
+						array(
 
 							'name'       => 'event_manager_enable_event_types',
 
