@@ -3681,7 +3681,7 @@ msgstr ""
 
 #: templates/event-registration.php:11
 msgid "Register for event"
-msgstr "Für Veranstaltung anmelden"
+msgstr "Anmelden"
 
 #: templates/event-submit.php:18
 #, fuzzy, php-format

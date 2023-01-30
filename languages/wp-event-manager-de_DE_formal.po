@@ -598,7 +598,7 @@ msgstr "Beliebiges Datum"
 
 #: templates/event-filters.php:11 templates/event-filters.php:12
 msgid "Keywords"
-msgstr "Schlüsselwörter"
+msgstr "Stichwörter"
 
 #: templates/event-filters.php:127 templates/filters/event-filters-2.php:105
 msgid "Choose an Event Type"
@@ -735,6 +735,9 @@ msgstr "Ungültige ID"
 #: templates/event-preview.php:20
 msgid "← Edit listing"
 msgstr "← Eintrag bearbeiten"
+
+msgid "Additional Details"
+msgstr "Weitere Informationen"
 
 #: templates/event-preview.php:19
 msgid "Submit Listing →"
