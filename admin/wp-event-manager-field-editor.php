@@ -130,7 +130,7 @@ class WP_Event_Manager_Field_Editor
 
 		if (!empty($_POST) && !empty($_POST['_wpnonce'])) {
 			echo wp_kses_post($this->form_editor_save());
-		}
+		} 
 
 		$disbled_fields = apply_filters('wpem_admin_field_editor_disabled_fields', array('event_title', 'event_description', 'organizer_name', 'organizer_description', 'venue_name', 'venue_description'));
 		$field_types    = apply_filters(
@@ -195,7 +195,8 @@ class WP_Event_Manager_Field_Editor
 							<th><?php esc_attr_e('Description', 'wp-event-manager'); ?></th>
 							<th><?php esc_attr_e('Placeholder / Options', 'wp-event-manager'); ?></th>
 							<th width="1%"><?php esc_attr_e('Meta Key', 'wp-event-manager'); ?></th>
-							<th width="1%"><?php esc_attr_e('Only For Admin', 'wp-event-manager'); ?></th>
+							<th width="1%"><?php esc_attr_e('Only submitable For Admin', 'wp-event-manager'); ?></th>
+							<th width="1%"><?php esc_attr_e('Only visible For Admins', 'wp-event-manager'); ?></th>
 							<th width="1%"><?php esc_attr_e('Priority', 'wp-event-manager'); ?></th>
 							<th width="1%"><?php esc_attr_e('Validation', 'wp-event-manager'); ?></th>
 							<th width="1%" class="field-actions">&nbsp;</th>
