@@ -170,7 +170,7 @@ $event = $post;
                                                     <?php
                                                     $field_key = '_' . $name;
                                                     $field_value = $event->$field_key; ?>
-                                                    <?php if (isset($field_value)) : ?>
+                                                    <?php if (isset($field_value) && $field['admin_only_visible'] != true) : ?>
 
                                                         <?php if ($field['type'] == 'group') : ?>
 

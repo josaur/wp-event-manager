@@ -74,6 +74,11 @@ $taxonomies = get_object_taxonomies((object) array('post_type' => 'event_listing
 		<?php endif; ?>
 	</td>
 	<td>
+		<?php if (!in_array($field_key, $disbled_fields)) : ?>
+			<input type="checkbox" name="<?php echo esc_attr($group_key); ?>[<?php echo esc_attr($field_key); ?>][admin_only_visible]" value="1" <?php checked(!empty($field['admin_only_visible']), true); ?> />
+		<?php endif; ?>
+	</td>
+	<td>
 		<input type="text" class="input-text placeholder" name="<?php echo esc_attr($group_key); ?>[<?php echo esc_attr($field_key); ?>][priority]" value="<?php
 																		if (isset($field['priority'])) {
 																			echo esc_attr($field['priority']);
@@ -100,6 +105,7 @@ $taxonomies = get_object_taxonomies((object) array('post_type' => 'event_listing
 		<?php endif; ?>
 		<span class="na">&ndash;</span>
 	</td>
+	
 	<td class="field-actions">
 		<?php if (!in_array($field_key, $disbled_fields)) : ?>
 			<a class="delete-field" href='#'>X</a>
@@ -141,7 +147,7 @@ if (isset($field['type']) && $field['type'] == 'group') {
 						<th><?php esc_attr_e('Description', 'wp-event-manager'); ?></th>
 						<th><?php esc_attr_e('Placeholder / Options', 'wp-event-manager'); ?></th>
 						<th width="1%"><?php esc_attr_e('Meta Key', 'wp-event-manager'); ?></th>
-						<th width="1%"><?php esc_attr_e('Only For Admin', 'wp-event-manager'); ?></th>
+						<th width="1%"><?php esc_attr_e('Only For Admidn', 'wp-event-manager'); ?></th>
 						<th width="1%"><?php esc_attr_e('Priority', 'wp-event-manager'); ?></th>
 						<th width="1%"><?php esc_attr_e('Validation', 'wp-event-manager'); ?></th>
 						<th width="1%" class="field-actions">&nbsp;</th>
