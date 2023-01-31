@@ -970,7 +970,7 @@ msgstr "veranstaltungsart"
 
 #: core/wp-event-manager-post-types.php:192
 msgid "Event types"
-msgstr "Veranstaltungsarten"
+msgstr "Veranstaltungsart"
 
 #: core/wp-event-manager-post-types.php:190
 msgid "Event type"
@@ -1691,7 +1691,7 @@ msgstr "Aktiviere Veranstaltungsarten für Einträge"
 
 #: admin/wp-event-manager-settings.php:203
 msgid "Event Types"
-msgstr "Veranstaltungsarten"
+msgstr "Veranstaltungsart"
 
 #: admin/wp-event-manager-settings.php:188
 msgid "Enable categories for listings"

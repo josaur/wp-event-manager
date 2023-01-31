@@ -1083,7 +1083,7 @@ msgstr ""
 #: admin/wp-event-manager-settings.php:469
 #: templates/content-single-event_listing.php:482
 msgid "Event Types"
-msgstr "Veranstaltungsarten"
+msgstr "Veranstaltungsart"
 
 #: admin/wp-event-manager-settings.php:471
 msgid "Enable Event types for listing and submission form."
@@ -2533,7 +2533,7 @@ msgstr "Kategorien nach Komma getrennt eingeben"
 #: external/elementor-widgets/elementor-past-event-listing.php:180
 #: external/elementor-widgets/elementor-upcoming-event-listing.php:180
 msgid "Event Types "
-msgstr "Veranstaltungsarten "
+msgstr "Veranstaltungsart"
 
 #: external/elementor-widgets/elementor-event-listing.php:280
 #: external/elementor-widgets/elementor-past-event-listing.php:182
