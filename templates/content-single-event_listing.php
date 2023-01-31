@@ -150,10 +150,11 @@ $event = $post;
 
                                 if (!empty($additional_fields)) : ?>
                                     <div class="wpem-additional-info-block-wrapper">
-
-                                        <div class="wpem-additional-info-block">
-                                            <h3 class="wpem-heading-text"><?php _e('Additional Details', 'wp-event-manager'); ?></h3>
+                                    <?php if (get_option('event_manager_event_header', true)) : ?>
+                                        <div class="wpem-additional-info-block">                                       
+                                            <h3 class="wpem-heading-text"><?php _e(get_option('event_manager_event_header_label', 'Additional Details'), 'wp-event-manager'); ?></h3>                                        
                                         </div>
+                                    <?php endif; ?>
 
                                         <div class="wpem-additional-info-block-details">
 

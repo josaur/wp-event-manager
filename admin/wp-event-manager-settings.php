@@ -116,6 +116,34 @@ class WP_Event_Manager_Settings
 
 							'attributes' => array(),
 						),
+						array(
+
+							'name'       => 'event_manager_event_header',
+
+							'std'        => '1',
+
+							'label'      => __('Header', 'wp-event-manager'),
+
+							'cb_label'   => __('Show header', 'wp-event-manager'),
+
+							'desc'       => __('If enabled the Header of the single event listing will be shown', 'wp-event-manager'),
+
+							'type'       => 'checkbox',
+
+							'attributes' => array(),
+						),
+						array(
+
+							'name'  => 'event_manager_event_header_label',
+
+							'std'   => '',
+
+							'label' => __('Header from Label', 'wp-event-manager'),
+
+							'desc'  => __('Select the label to be inserted as header', 'wp-event-manager'),
+
+							'attributes'  => array(),
+						),
 						
 					),
 				),
