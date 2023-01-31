@@ -562,7 +562,7 @@ msgstr "Veranstaltungsdetails"
 
 #: templates/event-registration.php:8
 msgid "Register for event"
-msgstr "Für Veranstaltung registrieren"
+msgstr "Anmelden"
 
 #: templates/event-registration-url.php:1
 msgid "To register for this event please visit the following URL:"
