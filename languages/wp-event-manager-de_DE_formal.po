@@ -598,14 +598,14 @@ msgstr "Beliebiges Datum"
 
 #: templates/event-filters.php:11 templates/event-filters.php:12
 msgid "Keywords"
-msgstr "Stichwörter"
+msgstr "Suche"
 
 #: templates/event-filters.php:127 templates/filters/event-filters-2.php:105
 msgid "Choose an Event Type"
-msgstr "Veranstaltungsart"
+msgstr "Was"
 
 msgid "Select Date Range"
-msgstr "Zeitfenster"
+msgstr "Wann"
 
 msgid "Choose a Category"
 msgstr "Kategorie"
@@ -1303,7 +1303,7 @@ msgstr "Veranstaltungs-Banner"
 #: templates/event-filters.php:19 templates/event-filters.php:20
 #: widgets/wp-event-manager-widgets.php:235
 msgid "Location"
-msgstr "Ort"
+msgstr "Wo"
 
 #: forms/wp-event-manager-form-submit-event.php:171
 msgid "Please enter street name and number"
