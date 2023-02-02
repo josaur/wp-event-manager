@@ -583,15 +583,9 @@ $event = $post;
                                             <div class="wpem-social-icon wpem-twitter">
                                                 <a href="https://twitter.com/share?text=twitter&url=<?php display_event_permalink(); ?>" title="Share this page on Twitter"><?php _e('Twitter', 'wp-event-manager'); ?></a>
                                             </div>
-                                            <div class="wpem-social-icon wpem-linkedin">
-                                                <a href="https://www.linkedin.com/sharing/share-offsite/?&url=<?php display_event_permalink(); ?>" title="Share this page on Linkedin"><?php _e('Linkedin', 'wp-event-manager'); ?></a>
-                                            </div>
-                                            <div class="wpem-social-icon wpem-xing">
-                                                <a href="https://www.xing.com/spi/shares/new?url=<?php display_event_permalink(); ?>" title="Share this page on Xing"><?php _e('Xing', 'wp-event-manager'); ?></a>
-                                            </div>
-                                            <div class="wpem-social-icon wpem-pinterest">
-                                                <a href="https://pinterest.com/pin/create/button/?url=<?php display_event_permalink(); ?>" title="Share this page on Pinterest"><?php _e('Pinterest', 'wp-event-manager'); ?></a>
-                                            </div>
+                                            <div class="wpem-social-icon wpem-instagram">
+                                                <a href="https://www.instagram.com/share?url<?php display_event_permalink(); ?>" title="Share this page on Instgram"><?php _e('Instagram', 'wp-event-manager'); ?></a>
+                                            </div>                        
                                             <?php do_action('single_event_listing_social_share_end'); ?>
                                         </div>
                                     </div>
