@@ -564,6 +564,25 @@ msgstr "Veranstaltungsdetails"
 msgid "Register for event"
 msgstr "Anmelden"
 
+msgid "apply"
+msgstr "anwenden"
+
+msgid "clear"
+msgstr "löschen"
+
+msgid "Su"
+msgstr "So"
+
+msgid  "Tu"
+msgstr "Di"
+
+msgid "We"
+msgstr "Mi"
+
+msgid "Th"
+msgstr "Do"
+
+
 #: templates/event-registration-url.php:1
 msgid "To register for this event please visit the following URL:"
 msgstr "Um dich für diese Veranstaltung zu registrieren, besuche den folgenden Link:"
