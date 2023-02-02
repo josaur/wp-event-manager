@@ -513,13 +513,13 @@ $event = $post;
                                         <div>
                                             <?php
                                             if (get_event_address()) { ?>
-                                                <a href="http://maps.google.com/maps?q=<?php display_event_address();?>">  
+                                                <a href="https://www.openstreetmap.org/search?query=<?php display_event_address();?>">  
                                                     <?php display_event_address();
                                                     echo esc_attr(',');?>
                                                 </a><?php
                                             }
                                             if (!is_event_online()) {?>
-                                                <a href="http://maps.google.com/maps?q=<?php display_event_location();?>" target="_blank">  
+                                                <a href="https://www.openstreetmap.org/search?query=<?php display_event_location();?>" target="_blank">  
                                                     <?php display_event_location();?>
                                                 </a>
                                             <?php } else {
