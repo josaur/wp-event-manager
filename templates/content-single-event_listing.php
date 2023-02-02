@@ -25,7 +25,7 @@ $event = $post;
                 <div class="wpem-alert wpem-alert-danger">
                     <span class="event-cancelled"><?php _e('This event has been cancelled.', 'wp-event-manager'); ?></span>
                 </div>
-            <?php elseif (!attendees_can_apply() && 'preview' !== $post->post_status) : ?>
+            <?php elseif (!attendees_can_apply() && 'preview' !== $post->post_status && 1 == 0 ) : ?>
                 <div class="wpem-alert wpem-alert-danger">
                     <span class="listing-expired"><?php _e('Registrations have closed.', 'wp-event-manager'); ?></span>
                 </div>
